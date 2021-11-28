@@ -131,7 +131,7 @@
 			<key>comment</key>
 			<string>Major sections of the configuration</string>
 			<key>match</key>
-			<string>(?&lt;=^|\s)(system|forwarding-options|routing-options|routing-instances|logical-systems|vlans|bridge-domains|dynamic-profiles|interfaces|snmp|poe|ethernet-switching-options|security)(?=[ 
+			<string>(?&lt;=^|\s)(system|forwarding-options|routing-options|routing-instances|logical-systems|vlans|bridge-domains|dynamic-profiles|interfaces|snmp|poe|ethernet-switching-options|security)(?=[
 ;])</string>
 		</dict>
 		<dict>
@@ -146,7 +146,7 @@
 			<key>comment</key>
 			<string>minor sections of the config.</string>
 			<key>match</key>
-			<string>(?&lt;=^|\s)(policy-options|protocols|chassis|firewall|applications|multi-chassis|redundant-power-system|version|services|virtual-chassis|event-options|class-of-service|access|accounting-options|diameter|fabric|multicast-snooping-options|switch-options|wlan|smtp|schedulers)(?=[ 
+			<string>(?&lt;=^|\s)(policy-options|protocols|chassis|firewall|applications|multi-chassis|redundant-power-system|version|services|virtual-chassis|event-options|class-of-service|access|accounting-options|diameter|fabric|multicast-snooping-options|switch-options|wlan|smtp|schedulers)(?=[
 ;])</string>
 		</dict>
 		<dict>
